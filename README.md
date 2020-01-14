@@ -6,7 +6,7 @@ I approached like this is a API consumed by other internal applications, so I cr
 
 I used express as my http abstraction, mongoDB as my database and jest for my unit tests.
 
-To understand the flux of the requests you can go directly to /routers folder and check the index.js for each endpoint.
+To understand the flux of the requests you can go directly to [/routers](src/routers) folder and check the index.js for each endpoint.
 
 ## How to run
 
