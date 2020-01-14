@@ -1,0 +1,14 @@
+/* istanbul ignore file */
+export default {
+    MISSING_PAYLOAD: 400,
+    REQUEST_TOO_LARGE: 413,
+    NOT_FOUND: 404,
+    UNEXPECTED_ERROR: 500,
+    OK: 200,
+    NOT_AUTHORIZED: 401,
+    UNPROCESSABLE_ENTITY: 422,
+    CREATED: 201,
+    NO_CONTENT: 204,
+    NOT_FOUND_PRODUCT: 404,
+    DUPLICATED: 400,
+}

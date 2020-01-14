@@ -1,0 +1,23 @@
+version: "2"
+services:
+  app:
+    container_name: labs-service
+    restart: always
+    build: .
+    environment:
+      ENV: localContainer
+      WAITS_HOSTS: labs-mongodb:27018
+    ports:
+      - "8080:8080"
+    links:
+      - mongo
+    depends_on: 
+      - mongo
+  mongo:
+    container_name: labs-mongodb
+    image: mongo
+    command: mongod --port 27018
+    volumes:
+      - ./data:/data/db
+    ports:
+      - "27018:27018"
