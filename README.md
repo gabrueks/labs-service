@@ -29,6 +29,9 @@ All systems:
 $ npm i --production
 $ npm start
 ```
+
+### On both ways you can access http://localhost:8080 and test the apis
+
 ## How to test
 Unit tests:
 ```bash
